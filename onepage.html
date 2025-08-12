@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>One Page Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">MyWebsite
+</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#friends">My Friend</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Selamat Datang!</h1>
+    <p>Ini adalah halaman one page buatan saya.</p>
+    <a href="https://www.google.com" class="btn">Pergi ke Google</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Tentang Saya</h2>
+    <div class="about-content">
+      <img src="wahyu.jpeg" alt="Foto Saya">
+      <p>Hallo! Nama saya Wahyu Putra Pujonarko, saya berusia 17 Tahun. Saya berasal dari Bekasi dan hobi saya adalah Bermain gitar. Saya saat ini sedang belajar membuat website satu halaman.</p>
+    </div>
+  </section>
+
+  <section id="friends" class="friends">
+    <h2>Teman-teman Saya</h2>
+    <div class="friend-list">
+      <img src="teman.jpeg" alt="Teman 1">
+      <img src="teman2.jpeg" alt="Teman 2">
+      <!-- Tambahkan gambar lain jika perlu -->
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Kontak Saya</h2>
+    <p>Instagram: whaayputr_</p>
+    <p>Berikut adalah lokasi rumah saya:</p>
+    <iframe src="https://www.google.com/maps/embed?pb=MASUKKAN-EMBED-MAP-DARI-GOOGLE" 
+      width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Dibuat oleh Wahyu</p>
+  </footer>
+
+</body>
+</html>
